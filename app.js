@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({silent: true});
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -6,7 +6,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const cors = require('cors');
+const cors= require('cors');
 
 mongoose.connect(process.env.DB_CONNECTION)
 
@@ -14,8 +14,12 @@ mongoose.connect(process.env.DB_CONNECTION)
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var waterbottles = require('./routes/waterbottles')
+
 
 var app = express();
+app.use(cors());
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -28,12 +32,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(cors())
 
 
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/waterbottles', waterbottles);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
