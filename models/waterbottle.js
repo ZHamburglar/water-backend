@@ -5,7 +5,7 @@ var waterbottleSchema = {
 brand: String,
 phLevel: Number,
 cost:Number,
-userId:String,
+imageName:String,
 }
 var Waterbottle = mongoose.model('Waterbottle', waterbottleSchema);
 
