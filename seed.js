@@ -133,7 +133,7 @@ const bottles = [
     brand: "Perrier",
     phLevel: 4,
     cost: 1.49,
-    imageName: "perrier.jpg",
+    imageName: "perrier.png",
   },
   {
     brand: "Poland Spring",
