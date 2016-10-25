@@ -133,7 +133,7 @@ const bottles = [
     brand: "Perrier",
     phLevel: 4,
     cost: 1.49,
-    imageName: "perrier.png",
+    imageName: "perrier.jpg",
   },
   {
     brand: "Poland Spring",
@@ -163,7 +163,7 @@ const bottles = [
     brand: "Austin Tap Water",
     phLevel: 9.6,
     cost:0,
-    imageName: "tapWater",
+    imageName: "tapWater.jpg",
   },
   {
     brand: "Glaceau Vitamin Water",
