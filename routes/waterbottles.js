@@ -9,7 +9,9 @@ router.use(function (req, res, next) {
 })
 
 router.get('/', function (req, res) {
-  Waterbottle.find({}, function (err, waterbottles) {
+  //console.log('route hit');
+  //console.log('req', req);
+  Waterbottle.find({}).sort({[req.query.orderBy]: 1}).exec(function (err, waterbottles) {
     if (err) {
       res.status(500).send()
     } else {
