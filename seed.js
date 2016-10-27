@@ -34,14 +34,14 @@ const bottles = [
     brand: "Crystal Geyser",
     phLevel: 7,
     cost: 1.71,
-    imageName: "crystalGeyser.jpg"
+    imageName: "crystalGeyser.jpg",
     statement: "Crystal Geyser Water Company is a private company based in California that produces sparkling mineral water and other beverage products. It is a wholly owned subsidiary of Japanese pharmaceutical company, Otsuka Holdings."
   },
   {
     brand: "Dasani",
     phLevel: 4,
     cost: 1.48,
-    imageName: "dasani.jpg"
+    imageName: "dasani.jpg",
     statement: "Dasani is a brand of bottled water from the Coca-Cola company, launched in 1999, after the success of Aquafina (produced by Coca-Cola-rival PepsiCo). It is one of many brands of Coca-Cola bottled water sold around the world."
   },
   {
@@ -77,8 +77,7 @@ const bottles = [
     phLevel: 9.5,
     cost: 1.50,
     imageName: "essentia.png",
-    statement: "We created Essentia ionized alkaline water because we believe hydration makes us all a little better, inside and out. When you're properly hydrated, you think, feel, move, work and play more effectively.
-    And that feeling, that confidence, is contagious."
+    statement: "We created Essentia ionized alkaline water because we believe hydration makes us all a little better, inside and out. When you're properly hydrated, you think, feel, move, work and play more effectively, and that feeling, that confidence, is contagious.."
   },
   {
     brand: "Evamor",
@@ -197,7 +196,7 @@ const bottles = [
     phLevel: 4,
     cost: 0.95,
     imageName: "vitaminWater.jpg",
-    statement: "Vitaminwater was launched, adding vitamins and natural flavors with Smartwater. Designed to "fill the gap" between soft drinks andwater for people who knew they should be drinking more water but weren’t."
+    statement: "Vitaminwater was launched, adding vitamins and natural flavors with Smartwater. Designed to fill in the gap between soft drinks andwater for people who knew they should be drinking more water but weren’t."
   },
   {
     brand: "Voss",
