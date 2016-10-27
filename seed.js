@@ -34,14 +34,14 @@ const bottles = [
     brand: "Crystal Geyser",
     phLevel: 7,
     cost: 1.71,
-    imageName: "crystalGeyser.jpg"
+    imageName: "crystalGeyser.jpg",
     statement: "Crystal Geyser Water Company is a private company based in California that produces sparkling mineral water and other beverage products. It is a wholly owned subsidiary of Japanese pharmaceutical company, Otsuka Holdings."
   },
   {
     brand: "Dasani",
     phLevel: 4,
     cost: 1.48,
-    imageName: "dasani.jpg"
+    imageName: "dasani.jpg",
     statement: "Dasani is a brand of bottled water from the Coca-Cola company, launched in 1999, after the success of Aquafina (produced by Coca-Cola-rival PepsiCo). It is one of many brands of Coca-Cola bottled water sold around the world."
   },
   {
