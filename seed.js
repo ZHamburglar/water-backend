@@ -77,8 +77,7 @@ const bottles = [
     phLevel: 9.5,
     cost: 1.50,
     imageName: "essentia.png",
-    statement: "We created Essentia ionized alkaline water because we believe hydration makes us all a little better, inside and out. When you're properly hydrated, you think, feel, move, work and play more effectively.
-    And that feeling, that confidence, is contagious."
+    statement: "We created Essentia ionized alkaline water because we believe hydration makes us all a little better, inside and out. When you're properly hydrated, you think, feel, move, work and play more effectively, and that feeling, that confidence, is contagious.."
   },
   {
     brand: "Evamor",
@@ -197,7 +196,7 @@ const bottles = [
     phLevel: 4,
     cost: 0.95,
     imageName: "vitaminWater.jpg",
-    statement: "Vitaminwater was launched, adding vitamins and natural flavors with Smartwater. Designed to "fill the gap" between soft drinks andwater for people who knew they should be drinking more water but weren’t."
+    statement: "Vitaminwater was launched, adding vitamins and natural flavors with Smartwater. Designed to fill in the gap between soft drinks andwater for people who knew they should be drinking more water but weren’t."
   },
   {
     brand: "Voss",
