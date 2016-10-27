@@ -14,36 +14,42 @@ const bottles = [
     phLevel: 5,
     cost: 3,
     imageName:"appSprings.jpg",
+    statement:,
   },
   {
     brand:"Aquafina",
     phLevel: 4,
     cost: 1.00,
     imageName:"aquafina.jpg",
+    statement:,
   },
   {
     brand: "Arrowhead",
     phLevel: 7,
     cost: 1.48,
     imageName:"arrowHead.jpg",
+    statement:,
   },
   {
     brand: "Crystal Geyser",
     phLevel: 7,
     cost: 1.71,
-    imageName: "crystalGeyser.jpg" ,
+    imageName: "crystalGeyser.jpg"
+    statement:,,
   },
   {
     brand: "Dasani",
     phLevel: 4,
     cost: 1.48,
-    imageName: "dasani.jpg" ,
+    imageName: "dasani.jpg"
+    statement:,,
   },
   {
     brand: "Deep Rock",
     phLevel: 8,
     cost: 2,
     imageName: "deepRock.jpg",
+    statement:,
   },
   {
     brand: "Deerpark",
@@ -56,12 +62,14 @@ const bottles = [
     phLevel: 7.9,
     cost: 2,
     imageName: "eden.jpg",
+    statement:,
   },
   {
     brand: "El Dorado",
     phLevel: 7,
     cost: 3,
     imageName: "eldorado.jpg",
+    statement:,
   },
   {
     brand: "Essentia",
@@ -74,12 +82,14 @@ const bottles = [
     phLevel: 8,
     cost: 1.79,
     imageName: "evamor.jpg",
+    statement:,
   },
   {
     brand: "Evian",
     phLevel: 7.5,
     cost: 1.78,
     imageName: "evian.jpg",
+    statement:,
   },
   {
     brand: "Fiji",
@@ -98,6 +108,7 @@ const bottles = [
     phLevel: 4,
     cost: 3,
     imageName: "leBleu.jpg",
+    statement:,
   },
   {
     brand: "The Mountain Valley",
@@ -110,18 +121,21 @@ const bottles = [
     phLevel: 6.5,
     cost: 3,
     imageName: "nestle.jpg",
+    statement:,
   },
   {
     brand: "Niagara",
     phLevel: 5,
     cost: 2,
     imageName: "niagara.jpg",
+    statement:,
   },
   {
     brand: "Ozarka",
     phLevel: 5,
     cost: 0.99,
     imageName: "ozarka.jpg",
+    statement:,
   },
   {
     brand: "Penta",
@@ -140,12 +154,14 @@ const bottles = [
     phLevel: 5,
     cost: 2,
     imageName: "polandSpring.jpg",
+    statement:,
   },
   {
     brand: "Resource",
     phLevel: 6.6,
     cost: 3,
     imageName: "resource.jpg",
+    statement:,
   },
   {
     brand: "Glaceau Smartwater",
@@ -158,36 +174,42 @@ const bottles = [
     phLevel: 4,
     cost: 1.79,
     imageName: "sPellegrino.jpg",
+    statement:,
   },
   {
     brand: "Austin Tap Water",
     phLevel: 9.6,
     cost:0,
     imageName: "tapWater.jpg",
+    statement:,
   },
   {
     brand: "Glaceau Vitamin Water",
     phLevel: 4,
     cost: 0.95,
     imageName: "vitaminWater.jpg",
+    statement:,
   },
   {
     brand: "Voss",
     phLevel: 5,
     cost: 2.49,
     imageName: "voss.jpg",
+    statement:,
   },
   {
     brand: "Whole Foods 365",
     phLevel: 7.5,
     cost: 1.44,
     imageName: "wholeFoods.jpg",
+    statement:,
   },
   {
     brand: "Zephyrhills",
     phLevel: 7.5,
     cost: 2,
     imageName: "zephyrhills.jpg",
+    statement:,
   }
 ]
 
