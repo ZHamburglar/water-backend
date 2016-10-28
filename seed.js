@@ -111,7 +111,7 @@ const bottles = [
     brand: "Le Bleu",
     phLevel: 4,
     cost: 3,
-    imageName: "leBleu.jpg",
+    imageName: "lebleu.jpg",
     statement: "Le Bleu Corporation was formed in 1990. The first in the world to bottle vapor compression distilled water making pure h20 taste better than spring or other purified water through our purification process."
   },
   {
